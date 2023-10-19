@@ -15,3 +15,18 @@ body {
     font-size: 40px;
     margin: 0;
 }
+
+.menu-buttons{
+   
+    
+}
+
+.menu{
+    display: flex;
+    width: 48%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50%;
+
+    
+}
