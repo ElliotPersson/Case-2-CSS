@@ -59,11 +59,12 @@ text-align: start;
 .nav-button{
     color: white;
     text-decoration: none;
-    font-size: 25   px;
+    font-size: 25px;
 }
 
 .nav-button-1{
     margin-right: 40px;
+    
 }
 .nav-button-2{
     margin-right: 40px;
@@ -79,6 +80,31 @@ text-align: start;
     margin-right: 50px;
    
 }
+
+.nav-button-1:hover{
+   transition: 0.2s;
+   color: rgba(219, 218, 218, 1);
+}
+
+.nav-button-2:hover{
+    transition: 0.2s;
+    color: rgba(219, 218, 218, 1);
+ }
+
+ .nav-button-3:hover{
+    transition: 0.2s;
+    color: rgba(219, 218, 218, 1);
+ }
+
+ .nav-button-4:hover{
+    transition: 0.2s;
+    color: rgba(219, 218, 218, 1);
+ }
+
+ .nav-button-5:hover{
+    transition: 0.2s;
+    color: rgba(219, 218, 218, 1);
+ }
 
 .container{
 display: grid;
@@ -129,7 +155,7 @@ img{
 
 .text{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     
     font-family: 'Roboto', sans-serif;
@@ -142,7 +168,7 @@ img{
 
 .h1-om-mig{
     text-align: center;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 .footer{
