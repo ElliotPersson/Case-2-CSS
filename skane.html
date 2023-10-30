@@ -6,21 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skåne</title>
     <link rel="icon" type="image/icon" href="images/icons8-star-32.png">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Om mig</a> <a href="skane.html">Om Skåne</a> <a href="evenemang.html">Tivoli</a> <a href="galleri.html">Galleri</a>
-        </nav>
-        <h1>Skåne</h1>
+   
+    <header class="header">
+        <img
+          class="header-img"
+          src="images/header-plain-green.jpg"
+          alt="header bild"
+        />
+        <p class="p-header">Min sida</p>
+      </header>
+  
+      <nav class="navbar">
+        <a class="nav-button nav-button-1" href="index.html">Om mig</a>
+        <a class="nav-button nav-button-2" href="skane.html">Om Skåne</a>
+        <a class="nav-button nav-button-3" href="evenemang.html">Tivoli</a>
+        <a class="nav-button nav-button-4" href="galleri.html">Galleri</a>
+        <a class="nav-button nav-button-5" href="flaggor.html">Flaggor</a>
+      </nav>
 
-
-    </header>
-
+      <div class="container-2">
 
     <section>
-        <article>
+        <article class="skåne-article">
             <p>
                 Skåne är Sveriges sydligaste landskap. Landskapet består till största delen av den halvö som utgör
                 Skandinaviska halvöns sydligaste spets. I norr begränsas landskapet av Halland och Småland, i öster av
@@ -91,30 +102,31 @@
             </p>
         </article>
     </section>
-    <br>
-    <br>
-    <h3>En karta på Skåne</h3>
-    <iframe
+    </div>
+    <div class="container-3">
+    <h3 class="h3-en-karta-på-skåne">Karta</h3>
+    <iframe class="iframe-map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1148922.6252021499!2d12.086418587296823!3d55.776054166340344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d783fe43b503f%3A0xbd47a217e2b7f0e1!2zU2vDpW5lIGzDpG4!5e0!3m2!1ssv!2sse!4v1694533053795!5m2!1ssv!2sse"
         width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <br>
-    <br>
-    <table>
-        <tr bgcolor="grey">
+    </div>
+
+    <h3 class="h3-Fakta">Fakta om Skåne</h3>
+    <table class="table">
+        <tr class="tr-fakta">
             <th>Skåne</th>
             <th>Småland</th>
             <th>Halland</th>
         </tr>
-        <tr bgcolor="lightgrey">
-            <td>11 035 km²</td>
-            <td>31 070 km²</td>
-            <td>5 454 km²</td>
+        <tr>
+            <td class="td-fakta">11 035 km²</td>
+            <td class="td-fakta">31 070 km²</td>
+            <td class="td-fakta">5 454 km²</td>
         </tr>
-        <tr bgcolor="lightgrey">
-            <td>128 invånare/km²</td>
-            <td>26,6 invånare/km²</td>
-            <td>72,6 invånare/km²</td>
+        <tr>
+            <td class="td-fakta">128 invånare/km²</td>
+            <td class="td-fakta">26,6 i  nvånare/km²</td>
+            <td class="td-fakta">72,6 invånare/km²</td>
         </tr>
     </table>
     <footer>
