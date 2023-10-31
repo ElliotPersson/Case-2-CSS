@@ -205,6 +205,14 @@ img{
 
         }
 
+        .h3-namn{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .h3-historia{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
         p{
             font-family: 'Roboto', sans-serif;
         }
@@ -225,6 +233,7 @@ img{
     margin-top: 42%;
     margin-left: 146%;
     font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
     
@@ -232,7 +241,10 @@ img{
 
 
 .h3-Fakta{
-    margin-top: 30%
+    margin-top: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
 }
 
 
