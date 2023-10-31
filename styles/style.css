@@ -199,10 +199,19 @@ img{
         
         
         }
+
+        .h3-Om-Skåne{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        p{
+            font-family: 'Roboto', sans-serif;
+        }
 .iframe-map{
     margin-top: 50%;
-    margin-left: 10%;
-    justify-content: space-between;
+    margin-left: 20%;
+   
 
 
     
@@ -214,20 +223,19 @@ img{
 
 .h3-en-karta-på-skåne{
     margin-top: 42%;
-    margin-left: 135%;
-    font-size: 25px;
+    margin-left: 146%;
+    font-size: 23px;
 
 
     
 }
 
+
 .h3-Fakta{
-    margin-top: 20%
+    margin-top: 30%
 }
 
-.table{
-   
-}
+
 
 .tr-fakta{
     background-color: rgb(48, 181, 50);
@@ -238,7 +246,11 @@ img{
     
 }
 
-
+.img-Skåne-flagga{
+    width: 280px;
+margin-left: 130%;
+margin-top: -860px;
+}
 
 
 
