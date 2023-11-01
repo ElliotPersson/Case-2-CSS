@@ -217,8 +217,9 @@ img{
             font-family: 'Roboto', sans-serif;
         }
 .iframe-map{
-    margin-top: 50%;
-    margin-left: 20%;
+    margin-top: 230%;
+    margin-left: -20%;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 
 
@@ -229,43 +230,45 @@ img{
     margin-top: 20%;
 }
 
-.h3-en-karta-på-skåne{
-    margin-top: 42%;
-    margin-left: 146%;
-    font-size: 23px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-    
-}
-
-
-.h3-Fakta{
-    margin-top: 30%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-}
 
 
 
-.tr-fakta{
-    background-color: rgb(48, 181, 50);
-}
 
-.td-fakta{
-    background-color: rgb(132, 215, 134);
-    
-}
+
+
+
+
 
 .img-Skåne-flagga{
-    width: 280px;
-margin-left: 130%;
-margin-top: -860px;
+    width: 350px;
+margin-left: 83%;
+margin-top: -290%;
+
 }
 
 
+.img-rapsfält{
+    width: 350px;
+    margin-top: -160%;
+    margin-left: -60px;
+}
 
+.Wikipedia-knapp{
+    background-color:rgba(98, 182, 106, 1);
+    margin-top: 20%;
+    padding: 0.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.Wikipedia-knapp:hover{
+    transition: 0.5;
+    background-color: rgb(134, 221, 142);
+    cursor: pointer;
+}
 
 
 
