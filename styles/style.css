@@ -275,6 +275,8 @@ margin-top: -290%;
    margin-top: 3%;
    height: 100%;
    object-fit: cover;
+   
+   
 }
 
 .h1-tivoli-resa{
@@ -307,13 +309,16 @@ margin-top: -290%;
     border: 0;
     margin-top: 10px;
     height: 2rem;
-    border-radius: 2px;
+    border-radius: 4px;
+    transition: 0.8s;
+    margin-right: 10px;
 }
 
 .button-Skicka-in:hover{
     transition: 0.2s;
     background-color: rgb(21, 139, 11);
     color: rgb(255, 255, 255);
+    transform: scale(1.2) 
 }
 
 .button-återställ{
@@ -322,15 +327,18 @@ margin-top: -290%;
     border: 0;
     margin-top: 10px;
     height: 2rem;
-    border-radius: 2px;
+    border-radius: 4px;
+    transition: 0.8s;
 }
 
 .button-återställ:hover{
     transition: 0.2s;
     background-color: rgb(163, 12, 12);
     color:  rgb(255, 255, 255);
+    transform: scale(1.2) 
 }
 
 .legend{
 font-size: 1.25rem;
+
 }
