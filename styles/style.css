@@ -136,10 +136,7 @@ height: 500px;
    
 }
 
-img{
-    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-}
+
 
 
 .text-box{
@@ -169,7 +166,7 @@ img{
 .h1-om-mig{
     text-align: center;
     margin-top: 20%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
 }
 
 .footer{
@@ -271,6 +268,69 @@ margin-top: -290%;
     cursor: pointer;
 }
 
+.amusementpark-img1{
+   position:relative;
+   
+   width: 100%;
+   margin-top: 3%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.h1-tivoli-resa{
+    top: 25%;
+    right: 82%;
+   position: absolute;
+   margin-top: 8%;
+   object-fit: cover;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 45px;
+}
+
+.fieldset{
+    top: 65%;
+    right: 45%;
+    position: absolute;
+    width: 50%;
+    color: white;
+    border: solid 2px white;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
+.button-Skicka-in{
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 139, 11);
+    border: 0;
+    margin-top: 10px;
+    height: 2rem;
+    border-radius: 2px;
+}
+
+.button-Skicka-in:hover{
+    transition: 0.2s;
+    background-color: rgb(21, 139, 11);
+    color: rgb(255, 255, 255);
+}
+
+.button-återställ{
+    background-color: rgb(255, 255, 255);
+    color: rgb(163, 12, 12);
+    border: 0;
+    margin-top: 10px;
+    height: 2rem;
+    border-radius: 2px;
+}
+
+.button-återställ:hover{
+    transition: 0.2s;
+    background-color: rgb(163, 12, 12);
+    color:  rgb(255, 255, 255);
+}
+
+.legend{
+font-size: 1.25rem;
+}

@@ -5,19 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tivoli resa</title>
+    <link rel="stylesheet" href="/styles/style.css">
     <link rel="icon" type="image/icon" href="images/icons8-star-32.png">
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Om mig</a> <a href="skane.html">Om Skåne</a> <a href="evenemang.html">Tivoli</a> <a href="galleri.html">Galleri</a>
-    </nav>
-    <h1>Tivoli resa</h1>
-    <img src="https://images.pexels.com/photos/2884693/pexels-photo-2884693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="250" alt="Bild på tivoli">
-    <br>
-    <h3>Fyll i dina uppgifter i formuläret</h3>
+    
+    <header class="header">
+       
+        <img
+          class="header-img"
+          src="images/header-plain-green.jpg"
+          alt="header bild"
+        />
+        <p class="p-header">Min sida</p>
+      </header>
+  
+      <nav class="navbar">
+        <a class="nav-button nav-button-1" href="index.html">Om mig</a>
+        <a class="nav-button nav-button-2" href="skane.html">Om Skåne</a>
+        <a class="nav-button nav-button-3" href="evenemang.html">Tivoli</a>
+        <a class="nav-button nav-button-4" href="galleri.html">Galleri</a>
+        <a class="nav-button nav-button-5" href="flaggor.html">Flaggor</a>
+      </nav>
+      <img class="amusementpark-img1" src="https://images.pexels.com/photos/2884693/pexels-photo-2884693.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" width="250" alt="Bild på tivoli">
+   <h1 class="h1-tivoli-resa">Tivoli resa</h1>
+    
+   
+    
+    
     <form action="evenemang.html" method="get">
-        <fieldset>
+        <fieldset class="fieldset">
+            <legend class="legend">Fyll i dina uppgifter</legend>
             <label for="firstname">Förnamn: <br></label>
             <input type="text" id="firstname" name="first-name" required> <br> <br>
             <label for="lastname">Efternamn: <br></label>
@@ -28,9 +47,9 @@
             <input type="tel" id="phone" name="phone" pattern="[+0-9\s-]{10,20}" required> <br> <br>
             <label for="textarea">Övrigt:</label> <br>
             <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea> <br>
-            <button>Skicka in</button> <input type="reset">
+            <button class="button-Skicka-in">Skicka in</button> <input class="button-återställ" type="reset">
 
-
+           
         </fieldset>
 
     </form>
