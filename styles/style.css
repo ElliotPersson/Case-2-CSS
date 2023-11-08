@@ -440,3 +440,44 @@ box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     margin-left: 32%;
 }
 
+.sverige{
+    display: grid;
+    width:320px;
+    height: 180px;
+    background-color: yellow;
+    margin-top: 20%;
+    
+    column-gap: 40px;
+    row-gap: 20px;
+    
+    
+    
+    grid-template-areas:"sverige-1 sverige-2" 
+                        "sverige-3 sverige-4";
+}
+
+.sverige-1{
+    width: 100px;
+    height: 80%;
+    background-color: blue
+}
+
+.sverige-2{
+    width: 180px;
+    height: 80%;
+    background-color: blue
+    
+}
+
+.sverige-3{
+    width: 100px;
+    height: 100%;
+    background-color: blue;
+    
+}
+
+.sverige-4{
+    width: 180px;
+    height: 100%;
+    background-color: blue
+}
